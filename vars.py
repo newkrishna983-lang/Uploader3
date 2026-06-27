@@ -3,6 +3,9 @@
 
 from os import environ
 
-API_ID = int(environ.get("API_ID", "2447366")) #Replace with your api id
-API_HASH = environ.get("API_HASH", "5dghgfccc") #Replace with your api hash
-BOT_TOKEN = environ.get("BOT_TOKEN", "7231089830:A") #Replace with your bot token
+API_ID = int(environ.get("API_ID", "34422904")) #Replace with your api id
+API_HASH = environ.get("API_HASH", "7e0002469784f47fc08a6b3d93d7ebed") #Replace with your api hash
+BOT_TOKEN = environ.get("BOT_TOKEN", "8152006541:AAHxqnqOVSgQcFjsx5aWjFF_m6oabDutVew") #Replace with your bot token
+# Owner and Admin Configuration
+OWNER_ID = int(os.environ.get("OWNER_ID", "5349573682"))
+ADMINS = [int(x) for x in os.environ.get("ADMINS", "").split()]  # Default to owner ID
